@@ -40,6 +40,16 @@ Zaroven ukazte ze mate vse commitnute lokalne. <br>
 
 **4) Na test2 ziskejte dany commit** (metodu necham na vas) <br>
 
+Switch to branch test2 <br>
+`git checkout test2`
+
+Looking for hash of the commits from branch test1 <br>
+`git log test1`
+
+Copy commit from branch test1 <br>
+`git cherry-pick 24968b53c91f4b42d3176332e7d3219d3ca8abba`
+
+
 
 **5) Vypiste commity pomoc git log** <br>
 
