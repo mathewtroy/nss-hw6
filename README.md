@@ -73,6 +73,11 @@ Then use this for completing rebase
 
 **7) Na test2 smazte poslední commit** 
 
+Soft reset <br>
+`git reset --soft HEAD~1`
+
+Use push send <br>
+`git push --force`
 
 **Best practise:** <br> 
 
