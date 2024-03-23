@@ -22,6 +22,17 @@ https://docs.gitlab.com/ee/development/documentation/styleguide/ <br>
 
 
 **2) Vytvorte 2 větve (test1, test2) z master větve a vypište seznam všech větví** <br>
+Look at list all branches <br> `git branch -a`
+
+PS D:\study\2023-2024-leto\nss\hw\06\git> git branch -a <br>
+
+  main                              
+  test1                             
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main               
+  remotes/origin/master             
+  remotes/origin/test1              
+  remotes/origin/test2    
 
 **3) Na test1 vytvorte test.txt s textem:**
 huraa NSS :) a dostaňte commit na repo gitlabu (at není jen lokalne). 
