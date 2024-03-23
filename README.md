@@ -49,12 +49,27 @@ Looking for hash of the commits from branch test1 <br>
 Copy commit from branch test1 <br>
 `git cherry-pick 24968b53c91f4b42d3176332e7d3219d3ca8abba`
 
-
-
 **5) Vypiste commity pomoc git log** <br>
+`git log`
 
 **6) Na test2 pridejte test2.txt** ale chcete aby v historii byl \
 pouze 1 commit se zpravou která byla v minulem commitu (je vic spravnych reseni) <br>
+
+Add to index <br>
+`git add test2.txt`
+
+Commit <br>
+`git commit -m "added test.txt"`
+
+Run interactive rebase <br>
+`git rebase -i HEAD~2`
+
+First line should have pick, second should have squash <br>
+`pick 77777b7 added test.txt`
+`squash a1b2c3d some other commit message`
+
+Then use this for completing rebase
+`git rebase --continue`
 
 **7) Na test2 smazte poslední commit** 
 
